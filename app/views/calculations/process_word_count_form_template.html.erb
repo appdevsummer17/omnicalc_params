@@ -1,0 +1,23 @@
+<h1>Word Count Results</h1>
+
+    <dl>
+        <dt>Text</dt>
+        <dd><%= @text %></dd>
+        
+        <dt>Word Count</dt>
+        <dd><%= @word_count %></dd>
+        
+        <dt>Character Count (with spaces)</dt>
+        <dd><%= @character_count_with_spaces %></dd>
+        
+        <dt>Character Count (without spaces)</dt>
+        <dd><%= @character_count_without_spaces %></dd>
+        
+        <dt>Occurances of <%= @special_word %></dt>
+        <dd><%= @occurrences %></dd>
+        
+    </dl>
+
+
+    
+    <a href = "https://omnicalc-params-emklick.c9users.io/word_count/new"> Process more text</a>
