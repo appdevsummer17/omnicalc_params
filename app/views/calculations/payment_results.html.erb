@@ -1,0 +1,16 @@
+<h1>Payment Results</h1>
+
+    <p><strong>APR</strong></br>
+        <%= number_to_percentage(@apr) %>
+    </p>
+    <p><strong>Number of years</strong></br>
+        <%= @user_number_of_years_input %>
+    </p>
+    <p><strong>Principal</strong></br>
+        <%= number_to_currency(@user_principal_input) %>
+    <p><strong>Payment</strong></br>
+        <%= number_to_currency(@monthly_payment) %>
+    </p>
+    </p>
+    </br>
+    <p><a href=https://omnicalc-params-elliolson.c9users.io/payment/new>Calculate another payment</a></p>
